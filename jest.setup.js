@@ -1,3 +1,5 @@
+/* eslint-env jest */
+
 // Mock Firebase
 jest.mock('@react-native-firebase/app', () => ({
   default: jest.fn(),
